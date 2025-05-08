@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - RESICO México</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">RESICO</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="hoja2.html">¿Qué es?</a></li>
+          <li><a href="hoja3.html">Requisitos</a></li>
+          <li><a href="hoja4.html">Beneficios</a></li>
+          <li><a href="hoja5.html" class="active">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>¿Tienes dudas sobre RESICO?</h2>
+      <p>Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible:</p>
+
+      <form class="contact-form">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 RESICO México. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
